@@ -10,13 +10,13 @@ MODULES = [
     ("Forecasting Tools", "Upload your data, pick a model and get validated results, graphs and an Excel report. "
      "Nine models are ready today.", "ready", "pages/1_Forecasting_Tools.py"),
     ("Scientific Calculator", "Soil, fertilizer, laboratory and irrigation calculations. Every result shows its "
-     "formula, steps and assumptions.", "ready", "pages/2_Scientific_Calculator.py"),
+     "formula, steps and assumptions.", "ready", "2_Scientific_Calculator.py"),
     ("Research Library", "Search millions of papers through OpenAlex and Crossref, or jump to Google Scholar, "
-     "ResearchGate and other sources.", "ready", "pages/3_Research_Library.py"),
+     "ResearchGate and other sources.", "ready", "3_Research_Library.py"),
     ("Laboratory Analysis", "Soil and water procedures with chemicals, equipment, steps and quality control, "
-     "each checked against its published method.", "soon", "pages/4_Laboratory_Analysis.py"),
+     "each checked against its published method.", "soon", "4_Laboratory_Analysis.py"),
     ("Agricultural Tools", "Irrigation, fertilizer, machinery, climate, GIS and post-harvest tools for "
-     "agricultural engineering.", "soon", "pages/5_Agricultural_Tools.py"),
+     "agricultural engineering.", "soon", "5_Agricultural_Tools.py"),
 ]
 
 for row in (MODULES[:3], MODULES[3:]):
